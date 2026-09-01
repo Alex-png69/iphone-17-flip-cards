@@ -1,0 +1,17 @@
+document.addEventListener("DOMContentLoaded", function () {
+
+    const cards =
+        document.querySelectorAll(".flip-card");
+
+
+    cards.forEach(function (card) {
+
+        card.addEventListener("click", function () {
+
+            card.classList.toggle("flipped");
+
+        });
+
+    });
+
+});
